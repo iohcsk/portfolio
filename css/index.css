@@ -4,6 +4,11 @@
     width: 100%;
 }
 
+::selection {
+    background: #aaa;
+    color: #fff;
+}
+
 /* section 1 */
 
 .section1 {
