@@ -1,0 +1,465 @@
+@charset "utf-8";
+
+#wrap {
+    width: 100%;
+}
+
+/* section 1 */
+
+.section1 {
+    max-width: 1920px;
+    width: 100%;
+    height: 100vh;
+    background: #eee;
+    position: relative;
+}
+
+h2.title_left {
+    font-size: 4em;
+    font-weight: 800;
+    color: transparent;
+    -webkit-text-stroke: 1px #777;
+    position: absolute;
+    top: 50%;
+    left: -4%;
+    transform: translateY(-50%) rotate(-90deg);
+}
+
+.section1 .section1_innerBox {
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 275px;
+    position: relative;
+}
+
+.section1 .section1_innerBox img {
+    position: absolute;
+    top: 185px;
+    right: 0;
+}
+
+.section1 .section1_innerBox h3 {
+    font-size: 2.3em;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.section1 .section1_innerBox .name {
+    font-size: 8em;
+    padding: 125px 0;
+}
+
+.section1 .section1_innerBox p {
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+.section1 .btn_down {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: url('../img/section1/down.png') no-repeat center;
+    background-size: cover;
+    animation: updown .7s infinite ease-in-out;
+}
+
+@keyframes updown {
+    from {transform: translateX(-50%);}
+    25% {transform: translate(-50%, -5px);}
+    50% {transform: translateX(-50%);}
+    75% {transform: translate(-50%, 5px);}
+    to {transform: translateX(-50%);}
+}
+
+
+
+/* section 2 */
+
+.section2 {
+    max-width: 1920px;
+    width: 100%;
+    position: relative;
+}
+
+.section2 h2.title_left {
+    left: 0;
+}
+
+.section2 .section2_innerBox {
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 100px 0 110px;
+    position: relative;
+}
+
+h2.sec_title {
+    font-size: 5em;
+    margin-bottom: 50px;
+}
+
+.section2 .section2_innerBox .career {
+    font-size: 2em;
+    font-weight: 400;
+    line-height: 1.7;
+    word-break: keep-all;
+}
+
+.section2 .section2_innerBox img {
+    position: absolute;
+    top: 100px;
+    right: 0;
+}
+
+
+
+/* section 3 */
+
+.section3 {
+    max-width: 1920px;
+    width: 100%;
+    background: #eee;
+    position: relative;
+}
+
+.section3 h2.title_left {
+    left: -14.5%;
+}
+
+.section3 .section3_innerBox {
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 100px 0 50px;
+    position: relative;
+}
+
+.section3 .section3_innerBox .sec_title {
+    text-align: center;
+}
+
+.section3 .section3_innerBox .work {
+    width: 100%;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.section3 .section3_innerBox .work .work_img {
+    width: 50%;
+}
+
+.section3 .section3_innerBox .work .work_desc {
+    width: 50%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section3 .section3_innerBox .work .work_desc h3 {
+    font-size: 3em;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.section3 .section3_innerBox .work .work_desc p {
+    font-size: 2em;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+
+
+/* section 4 */
+
+.section4 {
+    max-width: 1920px;
+    width: 100%;
+    position: relative;
+}
+
+.section4 h2.title_left {
+    left: 2%;
+}
+
+.section4 .section4_innerBox {
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 100px 0;
+    position: relative;
+}
+
+.section4 .section4_innerBox .sec_title {
+    text-align: center;
+}
+
+.section4 .section4_innerBox .album .swiper-slide {
+    width: 300px;
+    height: 500px;
+    background: #eee;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: #ccc;
+}
+
+.swiper-button-prev {
+    top: 56%;
+    left: -50px;
+}
+
+.swiper-button-next {
+    top: 56%;
+    right: -50px;
+}
+
+.section4 .section4_innerBox .album h3 {
+    font-size: 2.5em;
+    font-weight: 700;
+    padding: 30px 0;
+}
+
+.section4 .section4_innerBox .album p {
+    font-size: 1.8em;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.section4 .section4_innerBox .album .youtube_btn {
+    width: 42px;
+    height: 42px;
+    margin-top: 20px;
+}
+
+
+
+/* section 5 */
+
+.section5 {
+    max-width: 1920px;
+    width: 100%;
+    position: relative;
+    background: #eee;
+}
+
+.section5 h2.title_left {
+    left: 0;
+}
+
+.section5 .section5_innerBox {
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 100px 0;
+    position: relative;
+}
+
+.section5 .section5_innerBox .sec_title {
+    text-align: center;
+}
+
+.section5 .section5_innerBox .sec5_boxWrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section5 .section5_innerBox .sec5_boxWrap .left,
+.section5 .section5_innerBox .sec5_boxWrap .right {
+    width: 50%;
+}
+
+.section5 .section5_innerBox .sec5_boxWrap .left {
+    padding-right: 5%;
+}
+
+.section5 .section5_innerBox .sec5_boxWrap .left .contact_p {
+    font-size: 1.8em;
+    font-weight: 600;
+    line-height: 1.7;
+    word-break: keep-all;
+    margin-bottom: 50px;
+}
+
+.section5 .section5_innerBox .sec5_boxWrap .left img {
+    transform: translateY(-5px);
+}
+
+.section5 .section5_innerBox .sec5_boxWrap .left .email {
+    display: inline-block;
+    font-size: 2.6em;
+    font-weight: 600;
+    padding-left: 20px;
+}
+
+.section5 .section5_innerBox .sec5_boxWrap .left .signature_box {
+    
+    text-align: right;
+}
+
+.section5 .section5_innerBox .sec5_boxWrap .left .signature_box img {
+    width: 120px;
+}
+
+
+
+/* UP button */
+
+.btn_up {
+    width: 36px;
+    height: 36px;
+    background: url('../img/section1/up-arrow.png') no-repeat center;
+    background-size: cover;
+    position: fixed;
+    right: 3%;
+    bottom: 3%;
+    z-index: 99;
+}
+
+
+
+
+/* Media Query */
+
+@media screen and (max-width: 768px) {
+    
+    section {padding: 0 3%;}
+    h2.title_left {display: none;}
+
+    /* section 1 */
+    .section1 .section1_innerBox {
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    .section1 .section1_innerBox img {
+        max-width: 290px;
+        width: 75%;
+        position: static;
+        margin-bottom: 30px;
+    }
+
+    .section1 .section1_innerBox h3 {
+        font-size: 2em;
+    }
+
+    .section1 .section1_innerBox .name {
+        font-size: 5.5em;
+        padding: 20px 0 30px;
+    }
+
+    .section1 .section1_innerBox p {
+        font-size: 1.6em;
+        line-height: 1.3;
+    }
+
+    
+    .section1 .btn_down {
+        bottom: 30px;
+    }
+
+
+    /* section 2 */
+    .section2 .section2_innerBox {
+        padding: 50px 0;
+        text-align: center;
+    }
+
+    h2.sec_title { /* section2~5 공통 */
+        font-size: 4em;
+        text-align: center;
+        line-height: 1.3;
+        margin-bottom: 30px;
+    }
+
+    .section2 .section2_innerBox img {
+        max-width: 300px;
+        position: static;
+        margin-bottom: 50px;
+    }
+
+    .section2 .section2_innerBox .career {
+        font-size: 1.8em;
+    }
+
+
+    /* section 3 */
+    .section3 .section3_innerBox {
+        padding: 50px 0;
+        text-align: center;
+    }
+
+    .section3 .section3_innerBox .work {
+        display: block;
+    }
+
+    .section3 .section3_innerBox .work .work_img,
+    .section3 .section3_innerBox .work .work_desc {
+        width: 100%;
+    }
+
+    .section3 .section3_innerBox .work .work_desc {
+        margin: 30px 0 0 0;
+    }
+
+    .section3 .section3_innerBox .work .work_desc h3 {
+        font-size: 2.6em;
+        margin-bottom: 30px;
+    }
+
+    .section3 .section3_innerBox .work .work_desc p {
+        font-size: 1.8em;
+    }
+
+
+
+    /* section 4 */
+    .section4 .section4_innerBox{
+        padding: 50px 0;
+    }
+
+    .swiper-button-next {
+        right: 10px;
+    }
+
+    .swiper-button-prev {
+        left: 10px;
+    }
+
+
+    /* section 5 */
+    .section5 .section5_innerBox{
+        padding: 50px 0;
+        text-align: center;
+    }
+
+    .section5 .section5_innerBox .sec5_boxWrap {
+        display: block;
+    }
+
+    .section5 .section5_innerBox .sec5_boxWrap .left {
+        width: 100%;
+        padding: 0;
+    }
+
+    .section5 .section5_innerBox .sec5_boxWrap .right {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .section5 .section5_innerBox .sec5_boxWrap .left .signature_box {
+        text-align: center;
+        margin: 30px 0;
+    }
+}
