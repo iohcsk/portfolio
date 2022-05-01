@@ -286,8 +286,8 @@ h2.sec_title {
 
 .section5 .section5_innerBox .sec5_boxWrap .left .contact_p {
     font-size: 1.8em;
-    font-weight: 600;
-    line-height: 1.7;
+    font-weight: 500;
+    line-height: 1.6;
     word-break: keep-all;
     margin-bottom: 50px;
 }
@@ -456,6 +456,14 @@ h2.sec_title {
     .section5 .section5_innerBox .sec5_boxWrap .right {
         width: 100%;
         margin-bottom: 50px;
+    }
+
+    .section5 .section5_innerBox .sec5_boxWrap .left .contact_p {
+        margin-bottom: 30px;
+    }
+
+    .section5 .section5_innerBox .sec5_boxWrap .left .email {
+        font-size: 2.2em;
     }
 
     .section5 .section5_innerBox .sec5_boxWrap .left .signature_box {
