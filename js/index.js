@@ -49,7 +49,7 @@ $(document).ready(function(){
                 delay: 2000
               },
             },
-            650: { // 480px 이상
+            650: { // 650px 이상
                 slidesPerView: 2,
                 spaceBetween: 20,
               },
