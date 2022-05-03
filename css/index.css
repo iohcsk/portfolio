@@ -348,6 +348,14 @@ h2.sec_title {
 
 @media screen and (max-width: 1400px) {
     section {padding: 0 3%;}
+    
+    .swiper-button-next {
+        right: 10px;
+    }
+
+    .swiper-button-prev {
+        left: 10px;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -404,13 +412,7 @@ h2.sec_title {
         padding: 50px 0;
     }
 
-    .swiper-button-next {
-        right: 10px;
-    }
-
-    .swiper-button-prev {
-        left: 10px;
-    }
+    
 
 
     /* section 5 */
