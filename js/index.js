@@ -8,6 +8,29 @@ $(document).ready(function(){
         $("html, body").animate({scrollTop: windowHeight}, 500);
     });
 
+    
+    let profile = $("#profile").offset(),
+        fs_tm = $("#fs_tm").offset(),
+        pop = $("#pop").offset(),
+        contact = $("#contact").offset();
+
+    $(".go_to_profile").on("click", function(){
+      $("html, body").animate({scrollTop: profile.top}, 500);
+    });
+
+    $(".go_to_fstm").on("click", function(){
+      $("html, body").animate({scrollTop: fs_tm.top}, 500);
+    });
+
+    $(".go_to_pop").on("click", function(){
+      $("html, body").animate({scrollTop: pop.top}, 500);
+    });
+
+    $(".go_to_contact").on("click", function(){
+      $("html, body").animate({scrollTop: contact.top}, 500);
+    });
+
+
     var swiper = new Swiper(".mySwiper", {
         slidesPerView: 4,
         spaceBetween: 40,
@@ -26,11 +49,13 @@ $(document).ready(function(){
                 delay: 2000
               },
             },
-            480: { // 480px 이상
+            650: { // 480px 이상
                 slidesPerView: 2,
+                spaceBetween: 20,
               },
             768: { // 768px 이상
-              slidesPerView: 4,
+              slidesPerView: 3,
+              spaceBetween: 20,
               autoplay: {
                 delay: 3000
               },
