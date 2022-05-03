@@ -32,8 +32,6 @@ $(document).ready(function(){
 
 
     var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 4,
-        spaceBetween: 40,
         navigation: {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
@@ -45,6 +43,7 @@ $(document).ready(function(){
         breakpoints: {
             320: { // 320px 이상
               slidesPerView: 1,
+              spaceBetween: 40,
               autoplay: {
                 delay: 2000
               },
@@ -56,6 +55,13 @@ $(document).ready(function(){
             768: { // 768px 이상
               slidesPerView: 3,
               spaceBetween: 20,
+              autoplay: {
+                delay: 3000
+              },
+            },
+            1280: { // 1280px 이상
+              slidesPerView: 4,
+              spaceBetween: 40,
               autoplay: {
                 delay: 3000
               },
